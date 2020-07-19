@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shopping Cart</title>
+</head>
+<body>    
+    <header>
+        <div class="overlay"></div>
+        <nav>
+            <h2>SHOP</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="cart">
+                    <a href="cart.html">
+                        <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+    <div class="image">
+        <img src="images/shirt1.jpg" alt="tshirt1">
+        <h3>Black Shirt</h3>
+        <h3>$300,00</h3>
+        <a class="add-cart cart1" href="#">Add Cart</a>
+        <input type="hidden" value="300"/>
+    </div>
+    <div class="image">
+        <img src="images/shirt2.jpg" alt="tshirt1">
+        <h3>White Shirt</h3>
+        <h3>$500,00</h3>
+        <a class="add-cart cart2" href="#">Add Cart</a>
+        <input type="hidden" value="500"/>
+    </div>
+    <div class="image">
+        <img src="images/shirt3.jpg" alt="tshirt1">
+        <h3>Blue Shirt</h3>
+        <h3>$420,00</h3>
+        <a class="add-cart cart3" href="#">Add Cart</a>
+        <input type="hidden" value="420"/>
+    </div>
+    <div class="image">
+        <img src="images/shirt4.jpg" alt="tshirt1">
+        <h3>Green Shirt</h3>
+        <h3>$209,00</h3>
+        <a class="add-cart cart4" href="#">Add Cart</a>
+        <input type="hidden" value="209"/>
+    </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
